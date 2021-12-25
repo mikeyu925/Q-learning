@@ -6,6 +6,5 @@ if __name__ == "__main__":
         columns= ['+','*','-'],
     )
     print(A)
-    tmp = A.loc[0, :]
-    print(tmp)
-    print(tmp[tmp == np.max(tmp)].index)
+    A += 2
+    print(A)
